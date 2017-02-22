@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags>
+	<tag>
+		<name>a</name>
+		<status>допрацювати</status>
+		<categories>
+			<category>common</category>
+			<category>link</category>
+		</categories>
+		<description>
+			Тег &#x3C;a&#x3E; визначає гіперпосилання, яке використовує посилання з однієї сторінки на іншу.
+			
+			Найбільш важливіший атрібут елементу &#x3C;a&#x3E; є href атрібут, який вказує пункт призначення посилання.
+
+			За замовчуванням посилання будуть виглядати наступним чином у всіх браузерах:
+
+			Поилання яке не відвідувалось - підкреслене та синє
+			Посилання яке відвідувалось - підкреслене та філоетове
+			активне посилання - підкреслене та червоне
+		</description>
+		<attributes>
+			<attribute html5="not">
+				<name>charset</name>
+				<value>char_encoding</value>
+				<description>Вказує символьний набір посилального документа</description>
+			</attribute>
+			<attribute html5="not">
+				<name>coords</name>
+				<value>cordinates</value>
+				<description>Вказує кординати посилання</description>
+			</attribute>
+			<attribute html5="new">
+				<name>download</name>
+				<values>filename</values>
+				<description>Вказує що ціль буде завантажено після того як користувач натисне на посилання</description>
+			</attribute>
+			<attribute>
+				<name>href</name>
+				<value>URL</value>
+				<description>Вказує на URL сторінки на яку йде посилання</description>
+			</attribute>
+			<attribute>
+				<name>hreflang</name>
+				<value>language_code</value>
+				<description>Визначає мову пов'язаного документа</description>
+			</attribute>
+			<attribute html5="new">
+				<name>media</name>
+				<value>media_query</value>
+				<description>Вказує для якого медіа/пристрою посилання оптимізовано</description>
+			</attribute>
+			<attribute html5="not">
+				<name>name</name>
+				<value>section_name</value>
+				<description>Задає ім'я якоря</description>
+			</attribute>								
+			<attribute>
+				<name>rel</name>
+				<value>section_name</value>
+				<description>Задає ім'я якоря</description>
+			</attribute>
+		</attributes>
+		<exepmle>
+			&#x3C;a href=&#x22;https://www.w3schools.com&#x22;&#x3E;Visit W3Schools.com!&#x3C;/a&#x3E;
+		</exepmle>
+		<browserSupport>
+			<chrome>1</chrome>
+			<ie>1</ie>
+			<firefox>1</firefox>
+			<safari>1</safari>
+			<opera>1</opera>
+		</browserSupport>
+		<link>https://www.w3schools.com/tags/tag_a.asp</link>
+	</tag>
+	<tag>
+		<name>abbr</name>
+		<categories>
+			<category>common</category>
+		</categories>
+		<description>
+			Тег &#x3C;abbr&#x3E; виводить на екран скорочення (абривіатуру) тексту який записано у тілі тегу, та при наведенн на це скорочення миші, виводить випливаюче вікно із повним текстом.
+
+			Розмітка скорочень може дати корисну інформацію для браузерів, системи перекладів та пошукових систем.
+		</description>
+		<exepmle>
+			&#x3C;abbr title="World Health Organization"&#x3E;WHO&#x3C;/abbr&#x3E;
+		</exepmle>
+		<browserSupport>
+			<chrome>1</chrome>
+			<ie>1</ie>
+			<firefox>1</firefox>
+			<safari>1</safari>
+			<opera>1</opera>			
+		</browserSupport>
+		<link>https://www.w3schools.com/tags/tag_abbr.asp</link>
+	</tag>
+	<tag>
+		<name>div</name>
+		<status></status>
+		<categories>
+			<category>styles and semantics</category>
+		</categories>
+		<description>
+			Тег &#x3C;div&#x3E; визначає поділ або розділ в HTML-документі.
+
+			Тег &#x3C;div&#x3E; використовується для угруповання блок-елементів для форматування їх за допомогою CSS.
+		</description>
+		<attributes>
+			<attribute html5="not">
+				<name>align</name>
+				<value>left, right, center, justify</value>
+				<description></description>
+			</attribute>
+		</attributes>
+		<exepmle>
+			&#x3C;div style="color:#0000FF"&#x3E;
+ 				&#x3C;h3&#x3E;This is a heading in a div element&#x3C;/h3&#x3E;
+  				&#x3C;p&#x3E;This is some text in a div element.&#x3C;/p&#x3E;
+			&#x3C;/div&#x3E;
+		</exepmle>
+		<browserSupport>
+			<chrome>1</chrome>
+			<ie>1</ie>
+			<firefox>1</firefox>
+			<safari>1</safari>
+			<opera>1</opera>			
+		</browserSupport>
+		<link>https://www.w3schools.com/tags/tag_div.asp</link>
+	</tag>
+	<tag>
+		<name>aside</name>
+		<status></status>
+		<categories>
+			<category>styles and semantics</category>
+		</categories>
+		<description>
+			Тег &#x3C;aside&#x3E; визначає що якийсь контент угруповано та знаходиться осторонь головного контетнту.
+			Осторонній контент має бути пов'язаний із навколишнім контентом.
+		</description>
+		<exepmle>
+			&#x3C;aside&#x3E;
+			  &#x3C;h4&#x3E;Epcot Center&#x3C;/h4&#x3E;
+			  &#x3C;p&#x3E;The Epcot Center is a theme park in Disney World, Florida.&#x3C;/p&#x3E;
+			&#x3C;/aside&#x3E;
+		</exepmle>
+		<browserSupport>
+			<chrome>6.0</chrome>
+			<ie>9.0</ie>
+			<firefox>4.0</firefox>
+			<safari>5.0</safari>
+			<opera>11.1</opera>			
+		</browserSupport>
+		<link>https://www.w3schools.com/tags/tag_aside.asp</link>
+	</tag>
+	<tag>
+		<name>header</name>
+		<categories>
+			<category>styles and semantics</category>
+		</categories>
+		<description>
+			&#x3C;header&#x3E; елемент являє собою контейнер для вступного вмісту або набору навігаційних посилань.
+			
+			Елемент &#x3C;header&#x3E; зазвичай містить:
+			один або кілька заголовків елементів (&#x3C;h1&#x3E; - &#x3C;h6&#x3E;)
+			логотип або значок
+			інформація про авторство
+
+			Можливо мати кілька елементів &#x3C;header&#x3E; у одому документі.
+
+			Примітка: Тег &#x3C;header&#x3E; не може бути поміщений в межах &#x3C;footer&#x3E;,&#x3C;address&#x3E; або інших &#x3C;header&#x3E; елементах.
+		</description>
+		<exepmle>
+			&#x3C;aside&#x3E;
+			 &#x3C;article&#x3E;
+				&#x3C;header&#x3E;
+					&#x3C;h1&#x3E;Most important heading here&#x3C;/h1&#x3E;
+					&#x3C;h3&#x3E;Less important heading here&#x3C;/h3&#x3E;
+					&#x3C;p&#x3E;Some additional information here&#x3C;/p&#x3E;
+				&#x3C;/header&#x3E;
+				&#x3C;p&#x3E;Lorem Ipsum dolor set amet....&#x3C;/p&#x3E;
+			&#x3C;/article&#x3E;
+		</exepmle>
+		<browserSupport>
+			<chrome>6.0</chrome>
+			<ie>9.0</ie>
+			<firefox>4.0</firefox>
+			<safari>5.0</safari>
+			<opera>11.1</opera>			
+		</browserSupport>
+		<link>https://www.w3schools.com/tags/tag_header.asp</link>
+	</tag>
+	<tag>
+		<name>footer</name>
+		<categories>
+			<category>styles and semantics</category>
+		</categories>
+		<description>
+			Тег &#x3C;footer&#x3E; визначає нижній колонтитул документа або розділу.
+
+			Елемент &#x3C;footer&#x3E; повинен містити інформацію про його елементи.
+
+			Елемент &#x3C;footer&#x3E; зазвичай містить:
+				інформацію про авторство
+				інформацію про авторські права
+				Контактну інформацію
+				Карта сайтуу
+				повернення наверх посилання
+				пов'язані з ним документи
+
+				Можливо мати кілька елементів &#x3C;footer&#x3E; в одному документі.
+		</description>
+		<exepmle>
+			&#x3C;aside&#x3E;
+			&#x3C;footer&#x3E;
+				&#x3C;p&#x3E;Posted by: Hege Refsnes&#x3C;/p&#x3E;
+			 	&#x3C;p&#x3E;Contact information: &#x3C;a href="mailto:someone@example.com"&#x3E;
+				someone@example.com&#x3C;/a&#x3E;.&#x3C;/p&#x3E;
+			&#x3C;/footer&#x3E;
+		</exepmle>
+		<browserSupport>
+			<chrome>6.0</chrome>
+			<ie>9.0</ie>
+			<firefox>4.0</firefox>
+			<safari>5.0</safari>
+			<opera>11.1</opera>			
+		</browserSupport>
+		<link>https://www.w3schools.com/tags/tag_footer.asp</link>
+	</tag>
+	<tag>
+		<name>article</name>
+		<categories>
+			<category>styles and semantics</category>
+		</categories>
+		<description>
+			Тег &#x3C;article&#x3E; визначає самодостатній, завершений, змістово незалежний зміст.
+
+			Стаття повинна мати сенс сама по собі, і це повинно бути можливим, щоб розподілити його незалежно від іншої частини сайту.
+
+			Потенційні джерела для елемента &#x3C;article&#x3E;:
+			Форум повідомлення
+			повідомлення в блозі
+			Новини історія
+			коментар
+		</description>
+		<exepmle>
+			&#x3C;article&#x3E;
+				&#x3C;h1&#x3E;Google Chrome&#x3C;/h1&#x3E;
+			 	&#x3C;p&#x3E;Google Chrome is a free, open-source web browser developed by Google, released in 2008.&#x3C;/p&#x3E;
+			&#x3C;/article&#x3E;
+		</exepmle>
+		<browserSupport>
+			<chrome>6.0</chrome>
+			<ie>9.0</ie>
+			<firefox>4.0</firefox>
+			<safari>5.0</safari>
+			<opera>11.1</opera>			
+		</browserSupport>
+		<link>https://www.w3schools.com/tags/tag_article.asp</link>
+	</tag>
+	<tag>
+		<name>cite</name>
+		<categories>
+			<category>formatng</category>
+		</categories>
+		<description>
+			Тег &#x3C;cite&#x3E; визначає назву твору (книги, пісні тв-шоу і т.д.)
+
+			Примітка: Ім'я людини не назва твору.
+		</description>
+		<exepmle>
+			&#x3C;p&#x3E;&#x3C;cite&#x3E;The Scream&#x3C;/cite&#x3E; by Edward Munch. Painted in 1893.&#x3C;/p&#x3E;
+		</exepmle>
+		<browserSupport>
+			<chrome>1</chrome>
+			<ie>1</ie>
+			<firefox>1</firefox>
+			<safari>1</safari>
+			<opera>1</opera>			
+		</browserSupport>
+		<link>https://www.w3schools.com/tags/tag_cite.asp</link>		
+	</tag>
+	<tag>
+		<name>ul</name>
+		<categories>
+			<category>lists</category>
+		</categories>
+		<description>
+			Тег &#x3C;ul&#x3E; визначає невпорядкований (маркований) список.
+
+			Використовуйте тег &#x3C;ul&#x3E; разом з тегом &#x3C;li&#x3E; для створення невпорядкованих списків.
+		</description>
+		<exepmle>
+			&#x3C;ul&#x3E;
+				&#x3C;li&#x3E;Coffee&#x3C;/li&#x3E;
+				&#x3C;li&#x3E;Tea&#x3C;/li&#x3E;
+				&#x3C;li&#x3E;Milk&#x3C;/li&#x3E;
+			&#x3C;/ul&#x3E;
+		</exepmle>
+		<browserSupport>
+			<chrome>1</chrome>
+			<ie>1</ie>
+			<firefox>1</firefox>
+			<safari>1</safari>
+			<opera>1</opera>			
+		</browserSupport>
+		<link>https://www.w3schools.com/tags/tag_ul.asp</link>
+	</tag>
+	<tag>
+		<name>ol</name>
+		<categories>
+			<category>lists</category>
+		</categories>
+		<description>
+			Тег &#x3C;ol&#x3E; визначає упорядкований список. Упорядкований список може бути числовим або алфавітним.
+
+			Використовуйте тег &#x3C;ol&#x3E; разом з тегом &#x3C;li&#x3E; для визначення елементів списку.			
+		</description>
+		<exepmle>
+			&#x3C;ol&#x3E;
+				&#x3C;li&#x3E;Coffee&#x3C;/li&#x3E;
+				&#x3C;li&#x3E;Tea&#x3C;/li&#x3E;
+				&#x3C;li&#x3E;Milk&#x3C;/li&#x3E;
+			&#x3C;/ol&#x3E;
+
+			&#x3C;ol start="50"&#x3E;
+				&#x3C;li&#x3E;Coffee&#x3C;/li&#x3E;
+				&#x3C;li&#x3E;Tea&#x3C;/li&#x3E;
+				&#x3C;li&#x3E;Milk&#x3C;/li&#x3E;
+			&#x3C;/ol&#x3E;
+		</exepmle>
+		<browserSupport>
+			<chrome>1</chrome>
+			<ie>1</ie>
+			<firefox>1</firefox>
+			<safari>1</safari>
+			<opera>1</opera>			
+		</browserSupport>
+		<link>https://www.w3schools.com/tags/tag_ol.asp</link>	
+	</tag>
+	<tag>
+		<name>li</name>
+		<categories>
+			<category>lists</category>
+		</categories>
+		<description>
+			Тег &#x3C;li&#x3E; визначає елемент списку.
+
+			Тег &#x3C;li&#x3E; використовується в упорядкованих списках &#x3C;ol&#x3E;, маркувальних списках &#x3C;ul&#x3E; а також у списках меню &#x3C;menu&#x3E;
+		</description>
+		<exepmle>
+			&#x3C;ol&#x3E;
+				&#x3C;li&#x3E;Coffee&#x3C;/li&#x3E;
+				&#x3C;li&#x3E;Tea&#x3C;/li&#x3E;
+				&#x3C;li&#x3E;Milk&#x3C;/li&#x3E;
+			&#x3C;/ol&#x3E;
+
+			&#x3C;ul&#x3E;
+				&#x3C;li&#x3E;Coffee&#x3C;/li&#x3E;
+				&#x3C;li&#x3E;Tea&#x3C;/li&#x3E;
+				&#x3C;li&#x3E;Milk&#x3C;/li&#x3E;
+			&#x3C;/ul&#x3E;
+		</exepmle>
+		<browserSupport>
+			<chrome>1</chrome>
+			<ie>1</ie>
+			<firefox>1</firefox>
+			<safari>1</safari>
+			<opera>1</opera>			
+		</browserSupport>
+		<link>https://www.w3schools.com/tags/tag_li.asp</link>	
+	</tag>
+	<tag>
+		<name>dl</name>
+		<categories>
+			<category>lists</category>
+		</categories>
+		<description>
+			Тег &#x3C;dl&#x3E; визначає список описів.
+
+			Тег &#x3C;dl&#x3E; використовується в поєднанні з &#x3C;dt&#x3E; (визначає терміни/імена) та &#x3C;dd&#x3E; (описує кожен термін/ім'я).
+		</description>
+		<exepmle>
+			&#x3C;dl&#x3E;
+				&#x3C;dt&#x3E;Coffee&#x3C;/dt&#x3E;
+				&#x3C;dd&#x3E;Black hot drink&#x3C;/dd&#x3E;
+				&#x3C;dt&#x3E;Milk&#x3C;/dt&#x3E;
+				&#x3C;dd&#x3E;White cold drink&#x3C;/dd&#x3E;
+			&#x3C;/dl&#x3E;
+		</exepmle>
+		<browserSupport>
+			<chrome>1</chrome>
+			<ie>1</ie>
+			<firefox>1</firefox>
+			<safari>1</safari>
+			<opera>1</opera>			
+		</browserSupport>
+		<link>https://www.w3schools.com/tags/tag_dl.asp</link>	
+	</tag>
+	<tag>
+		<name>dt</name>
+		<categories>
+			<category>lists</category>
+		</categories>
+		<description>
+			Тег &#x3C;dt&#x3E; визначає термін/ім'я у списку опису.
+
+			Тег &#x3C;dt&#x3E; використовується у поєнанні із &#x3C;dl&#x3E; (визначає список опису) та &#x3C;dd&#x3E; (описує кожен термін/ім'я).
+		</description>
+		<exepmle>
+			&#x3C;dl&#x3E;
+				&#x3C;dt&#x3E;Coffee&#x3C;/dt&#x3E;
+				&#x3C;dd&#x3E;Black hot drink&#x3C;/dd&#x3E;
+				&#x3C;dt&#x3E;Milk&#x3C;/dt&#x3E;
+				&#x3C;dd&#x3E;White cold drink&#x3C;/dd&#x3E;
+			&#x3C;/dl&#x3E;
+		</exepmle>
+		<browserSupport>
+			<chrome>1</chrome>
+			<ie>1</ie>
+			<firefox>1</firefox>
+			<safari>1</safari>
+			<opera>1</opera>			
+		</browserSupport>
+		<link>https://www.w3schools.com/tags/tag_dt.asp</link>	
+	</tag>
+	<tag>
+		<name>dd</name>
+		<categories>
+			<category>lists</category>
+		</categories>
+		<description>
+			Тег &#x3C;dd&#x3E; використовується для опису термінів/ім'я в списку описів.
+
+			Тег &#x3C;dd&#x3E; використовується в поєднанні з &#x3C;dl&#x3E; (визначає список опис) і &#x3C;dt&#x3E; (визначає терміни/імена).
+
+			Усередині тега &#x3C;dd&#x3E; ви можете помістити абзаци, розриви рядків, зображення, посилання, списки і т.д.
+		</description>
+		<exepmle>
+			&#x3C;dl&#x3E;
+				&#x3C;dt&#x3E;Coffee&#x3C;/dt&#x3E;
+				&#x3C;dd&#x3E;Black hot drink&#x3C;/dd&#x3E;
+				&#x3C;dt&#x3E;Milk&#x3C;/dt&#x3E;
+				&#x3C;dd&#x3E;White cold drink&#x3C;/dd&#x3E;
+			&#x3C;/dl&#x3E;
+		</exepmle>
+		<browserSupport>
+			<chrome>1</chrome>
+			<ie>1</ie>
+			<firefox>1</firefox>
+			<safari>1</safari>
+			<opera>1</opera>			
+		</browserSupport>
+		<link>https://www.w3schools.com/tags/tag_dd.asp</link>
+	</tag>
+	<tag>
+		<name>menu</name>
+		<categories>
+			<category>lists</category>
+		</categories>
+		<description>
+			Тег &#x3C;menu&#x3E; визначає список/меню команд.
+		
+			Тег &#x3C;menu&#x3E; використовується для контекстного меню, панелей інструментів та для включення у перелік елементів управління формою та команд.
+		</description>
+		<exepmle>
+			&#x3C;menu type="context" id="mymenu"&#x3E;
+				&#x3C;menuitem label="Refresh" onclick="window.location.reload();" icon="ico_reload.png"&#x3E;
+				&#x3C;/menuitem&#x3E;
+					&#x3C;menu label="Share on..."&#x3E;
+					 	&#x3C;menuitem label="Twitter" icon="ico_twitter.png"
+					 	onclick="window.open('//twitter.com/intent/tweet?text='+window.location.href);"&#x3E;
+					 	&#x3C;/menuitem&#x3E;
+					 	&#x3C;menuitem label="Facebook" icon="ico_facebook.png"
+					 	onclick="window.open('//facebook.com/sharer/sharer.php?u='+window.location.href);"&#x3E;
+						&#x3C;/menuitem&#x3E;
+					&#x3C;/menu&#x3E;
+				&#x3C;menuitem label="Email This Page"
+				onclick="window.location='mailto:?body='+window.location.href;"&#x3E;&#x3C;/menuitem&#x3E;
+			&#x3C;/menu&#x3E;
+		</exepmle>
+		<browserSupport>
+			<chrome>0</chrome>
+			<ie>0</ie>
+			<firefox>8.0</firefox>
+			<safari>0</safari>
+			<opera>0</opera>			
+		</browserSupport>
+		<link>https://www.w3schools.com/tags/tag_menu.asp</link>
+	</tag>
+	<tag>
+		<name>menuitem</name>
+		<categories>
+			<category>lists</category>
+		</categories>
+		<description>
+			Тег &#x3C;menuitem&#x3E; визначає елемент команди/меню, користувач може викликати з випливаючого вікна.
+		</description>
+		<exepmle>
+			&#x3C;menu type="context" id="mymenu"&#x3E;
+				&#x3C;menuitem label="Refresh" onclick="window.location.reload();" icon="ico_reload.png"&#x3E;
+				&#x3C;/menuitem&#x3E;
+					&#x3C;menu label="Share on..."&#x3E;
+					 	&#x3C;menuitem label="Twitter" icon="ico_twitter.png"
+					 	onclick="window.open('//twitter.com/intent/tweet?text='+window.location.href);"&#x3E;
+					 	&#x3C;/menuitem&#x3E;
+					 	&#x3C;menuitem label="Facebook" icon="ico_facebook.png"
+					 	onclick="window.open('//facebook.com/sharer/sharer.php?u='+window.location.href);"&#x3E;
+						&#x3C;/menuitem&#x3E;
+					&#x3C;/menu&#x3E;
+				&#x3C;menuitem label="Email This Page"
+				onclick="window.location='mailto:?body='+window.location.href;"&#x3E;&#x3C;/menuitem&#x3E;
+			&#x3C;/menu&#x3E;
+		</exepmle>
+		<browserSupport>
+			<chrome>0</chrome>
+			<ie>0</ie>
+			<firefox>8.0</firefox>
+			<safari>0</safari>
+			<opera>0</opera>			
+		</browserSupport>
+		<link>https://www.w3schools.com/tags/tag_menuitem.asp</link>
+	</tag>
+	<tag>
+		<name>form</name>
+		<categories>
+			<category>forms and input</category>
+		</categories>
+		<description>
+			Тег &#x3C;form&#x3E; використовується для створення HTML-форми для введення даних користувачем.
+
+			Элемент &#x3C;form&#x3E; може мати один або декілька з наступних елементів форми: &#x3C;input&#x3E;,&#x3C;textarea&#x3E;,&#x3C;button&#x3E;,&#x3C;select&#x3E;,&#x3C;option&#x3E;,&#x3C;optgroup&#x3E;,&#x3C;fieldset&#x3E;,&#x3C;label&#x3E; 
+		</description>
+		<attributes>
+			<attribute>
+				<name>action</name>
+				<value>URL</value>
+				<description>Атрибут дії визначає, куди відправити форму-даних, коли форма була відправлена</description>
+			</attribute>
+			<attribute>
+				<name>method</name>
+				<value>ges post</value>
+				<description>Визначає метод HTTP, що використовується при відправці даних форми</description>
+			</attribute>
+			<attribute>
+				<name>name</name>
+				<value>text</value>
+				<description>Задає ім'я форми</description>
+			</attribute>
+			<attribute>
+				<name>novalidate</name>
+				<value>novalidate</value>
+				<description>Вказує на те, що форма не повинна бути підтверджена при пред'явленні</description>
+			</attribute>
+		</attributes>
+		<exepmle>
+			&#x3C;  &#x3E;
+			&#x3C;form action="/action_page.php" method="get"&#x3E;
+				First name: &#x3C;input type="text" name="fname"&#x3E;&#x3C;br&#x3E;
+				Last name: &#x3C;input type="text" name="lname"&#x3E;&#x3C;br&#x3E;
+				&#x3C;input type="submit" value="Submit"&#x3E;
+			&#x3C;/form&#x3E;
+		</exepmle>
+		<browserSupport>
+			<chrome>1</chrome>
+			<ie>1</ie>
+			<firefox>1</firefox>
+			<safari>1</safari>
+			<opera>1</opera>			
+		</browserSupport>
+		<link>https://www.w3schools.com/tags/tag_form.asp</link>
+	</tag>
+	<tag>
+		<name>input</name>
+		<categories>
+			<category>forms and input</category>
+		</categories>
+		<description>
+			Тег &#x3C;input&#x3E; визначає поле введення, в якому користувач може ввести дані.
+
+			&#x3C;input&#x3E; елементи використовуються в елементі &#x3C;form&#x3E;, щоб оголосити вхідні елементи управління, які дозволяють користувачам вводити дані.
+
+			Поле введення може варіюватися різними способами, в залежності від типу атрибута.
+		</description>
+		<exepmle>
+			&#x3C;  &#x3E;
+
+		</exepmle>
+		<browserSupport>
+			<chrome>1</chrome>
+			<ie>1</ie>
+			<firefox>1</firefox>
+			<safari>1</safari>
+			<opera>1</opera>			
+		</browserSupport>
+		<link></link>
+	</tag>
+	<tag>
+		<name></name>
+		<categories>
+			<category></category>
+		</categories>
+		<description>
+			
+		</description>
+		<exepmle>
+			&#x3C;  &#x3E;
+
+		</exepmle>
+		<browserSupport>
+			<chrome>1</chrome>
+			<ie>1</ie>
+			<firefox>1</firefox>
+			<safari>1</safari>
+			<opera>1</opera>			
+		</browserSupport>
+		<link></link>
+	</tag>
+	<tag>
+		<name></name>
+		<categories>
+			<category></category>
+		</categories>
+		<description>
+			
+		</description>
+		<exepmle>
+			&#x3C;  &#x3E;
+
+		</exepmle>
+		<browserSupport>
+			<chrome>1</chrome>
+			<ie>1</ie>
+			<firefox>1</firefox>
+			<safari>1</safari>
+			<opera>1</opera>			
+		</browserSupport>
+		<link></link>
+	</tag>
+	<tag>
+		<name></name>
+		<categories>
+			<category></category>
+		</categories>
+		<description>
+			
+		</description>
+		<exepmle>
+			&#x3C;  &#x3E;
+
+		</exepmle>
+		<browserSupport>
+			<chrome>1</chrome>
+			<ie>1</ie>
+			<firefox>1</firefox>
+			<safari>1</safari>
+			<opera>1</opera>			
+		</browserSupport>
+		<link></link>
+	</tag>
+	<tag>
+		<name></name>
+		<categories>
+			<category></category>
+		</categories>
+		<description>
+			
+		</description>
+		<exepmle>
+			&#x3C;  &#x3E;
+
+		</exepmle>
+		<browserSupport>
+			<chrome>1</chrome>
+			<ie>1</ie>
+			<firefox>1</firefox>
+			<safari>1</safari>
+			<opera>1</opera>			
+		</browserSupport>
+		<link></link>
+	</tag>
+</tegs>

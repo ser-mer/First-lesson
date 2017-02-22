@@ -1,0 +1,127 @@
+.main-nav {
+  text-align: center;
+  background-color: grey;
+}
+.main-nav ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.main-nav > ul {
+  padding: 0px 5px;
+  display: inline-block;
+}
+.main-nav > ul li {
+  display: block;
+  position: relative;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.main-nav > ul li:hover > ul {
+  display: inline-table;
+}
+.main-nav > ul > li {
+  display: inline-block;
+  background-color: #ccc;
+}
+.main-nav > ul > li ul {
+  background-color: grey;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.main-nav > ul > li > ul {
+  top: 100%;
+}
+.main-nav > ul > li li > ul {
+  left: 100%;
+}
+.main-nav > ul > li li:hover {
+  background: #0000FF;
+}
+.main-nav > ul > li:hover {
+  background-color: rgba(234, 200, 200, 0.76);
+}
+
+.container:before {
+  content: "";
+  display: table;
+}
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container > * {
+  float: left;
+}
+.container .left {
+  width: 20%;
+  text-align: center;
+  background-color: #75ff75;
+}
+.container .left .left-nav {
+  text-align: left;
+}
+.container .left .left-nav ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  background-color: #ccc;
+}
+.container .left .left-nav > ul {
+  padding: 10px 0px;
+  display: block;
+}
+.container .left .left-nav > ul li {
+  padding: 10px 0px;
+  position: relative;
+  cursor: pointer;
+}
+.container .left .left-nav > ul li:hover {
+  background: #00FF00;
+}
+.container .left .left-nav > ul li:hover > ul {
+  display: inline-table;
+}
+.container .left .left-nav > ul > li ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+.container .left .left-nav > ul > li > ul {
+  left: 100%;
+}
+.container .left .left-nav > ul > li li {
+  padding: 5px 10px;
+}
+.container .left .left-nav > ul > li li > ul {
+  left: 100%;
+}
+.container .left .left-nav > ul > li li:hover {
+  background: #0000FF;
+}
+.container > main {
+  width: 60%;
+}
+.container > main .form-control {
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.container .right {
+  width: 20%;
+}
+
+/*# sourceMappingURL=first.css.map */
+
+/*# sourceMappingURL=first.css.map */
